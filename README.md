@@ -1,6 +1,8 @@
 # YAMDF
 ### The first Stylus Material Design framework
 
+Version: Alpha 0.0.1 - Check changelog
+
 
 Welcome to YAMDF: Yet Another Material Design Framework
 > Please note that YAMDF is in very alpha stage, just few components are developed and completed.
