@@ -63,7 +63,7 @@ All options are always required. In the next version the syntax will change and 
 Option | Description | Value | Type
 ------ | ----------- | ----- | ----
 `menu` | The reference to the menu we want to show | The `id` of the menu. Example: `'menu'` | `String`
-`trigger` | The reference to the element that trigger the menu | The `id` of the element taht trigger the menu. Example: `'click-here'` | `String`
+`trigger` | The reference to the element that trigger the menu | The `id` of the element that trigger the menu. Example: `'click-here'` | `String`
 `triggerEvent` | The type of event on the trigger element | `'click'` or `'mouseover'` | `String`
 `from` | The position where the menu reveal animation will start | `top`, `bottom`, `left`, `right`, or a combination of two of them. Example: `top left` or `right bottom`. **Not** `top bottom` or `left right` | `String`
 
