@@ -82,5 +82,5 @@ To make a button with an icon just add the icon code before the button text.
 ```
 
 ### #Todo
-- [] Fix icon color in the button
-- [] Create styles for buttons states (hover, pressed, focused...)
+- [ ] Fix icon color in the button
+- [ ] Create styles for buttons states (hover, pressed, focused...)
