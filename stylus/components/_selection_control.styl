@@ -1,0 +1,101 @@
+.checkbox-container
+
+  position relative
+  z-index 2
+
+  display inline-block
+  box-sizing border-box
+
+  width 36px
+  height 36px
+
+  user-select none
+
+  i.material-icons
+
+    position absolute
+    top 6px
+    left 6px
+
+    cursor pointer
+    transition 100ms all cubic-bezier(0.4, 0.0, 0.2, 1)
+
+    &.checked
+      color #6200ee
+
+    &.not-checked
+      color rgba(0, 0, 0, .54)
+
+    &.hidden
+
+      top 16px
+      left 16px
+
+      font-size 0px
+
+
+.switch-container
+
+  position relative
+  z-index 2
+
+  display inline-block
+  box-sizing border-box
+
+  width 52px
+  height 36px
+
+  user-select none
+
+  .thumb
+
+    position absolute
+    top 8px
+    left 24px
+    z-index 4
+
+    width 20px
+    height 20px
+
+    background-color #6200ee
+
+    border-radius 20px
+    cursor pointer
+    transition 100ms all cubic-bezier(0.4, 0.0, 0.2, 1)
+
+    elevation('1')
+
+  .track
+
+    position absolute
+    top 11px
+    left 8px
+    z-index 3
+
+    width 36px
+    height 14px
+
+    background-color rgba(#6200ee, .54)
+
+    border-radius 14px
+    transition 100ms all cubic-bezier(0.4, 0.0, 0.2, 1)
+
+  &.not-checked
+
+    .thumb
+
+      left 8px
+
+      background-color #fff
+
+    .track
+      background-color rgba(0, 0, 0, .38)
+
+
+input[type="checkbox"]
+
+  display none
+  width 0px
+  height 0px
+
+  opacity 0

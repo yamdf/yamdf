@@ -1,0 +1,11 @@
+elevation(z)
+	-webkit-box-shadow: $elevations[z].shadows["umbra"], $elevations[z].shadows["penumbra"], $elevations[z].shadows["ambient"]
+	box-shadow: $elevations[z].shadows["umbra"], $elevations[z].shadows["penumbra"], $elevations[z].shadows["ambient"]
+
+
+for $depth in $elevations {
+	.elevation-{$depth} {
+		-webkit-box-shadow: $elevations[$depth].shadows["umbra"], $elevations[$depth].shadows["penumbra"], $elevations[$depth].shadows["ambient"]
+		box-shadow: $elevations[$depth].shadows["umbra"], $elevations[$depth].shadows["penumbra"], $elevations[$depth].shadows["ambient"]
+	}
+}

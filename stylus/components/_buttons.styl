@@ -1,0 +1,118 @@
+button
+div.button
+a.button
+
+	position relative
+	z-index 2
+
+	display inline-block
+	box-sizing border-box
+	min-width 64px
+	height 36px
+	lateralPadding(16px)
+	border none
+	margin 8px
+
+	background-color #6200ee
+	color #fff
+
+	font-family 'Roboto'
+	font-size 14px
+	font-weight 600
+	line-height 36px
+	text-align center
+	text-transform uppercase
+
+	border-radius 4px
+	cursor pointer
+	vertical-align top
+	transition 100ms all cubic-bezier(.4, .0, .2, 1)
+	user-select none
+	outline none
+
+	elevation('2')
+
+	i.material-icons
+
+		padding-right 8px
+		margin-left: -4px
+
+		font-size 18px
+		line-height 36px
+
+		vertical-align top
+
+	&:active
+		elevation('8')
+
+	&.outlined
+
+		border 1px solid rgba(0, 0, 0, .12)
+
+		background-color rgba(0, 0, 0, 0)
+		color #6200ee
+
+		elevation('0')
+
+	&.text
+
+		background-color rgba(0, 0, 0, 0)
+		color #6200ee
+
+		elevation('0')
+
+	&.fab
+
+		z-index 6
+
+		min-width 0px
+		width 56px
+		height 56px
+		padding 0px
+
+		border-radius 56px
+
+		elevation('6')
+
+		i.material-icons
+
+			padding-right 0px
+			margin-left 0px
+
+			font-size 24px
+			line-height 56px
+
+		&:active
+			elevation('12')
+
+		&.mini
+
+			width 40px
+			height 40px
+
+			border-radius 40px
+
+			i.material-icons
+				line-height 40px
+
+		&.extended
+
+			width auto
+			height 48px
+			lateralPadding(20px)
+
+			line-height: 48px
+			text-align center
+
+			border-radius 48px
+
+			i.material-Icons
+
+				margin-left -8px
+				padding-right 12px
+
+				line-height 48px
+
+button
+	i.material-icons
+		margin-top -1px
